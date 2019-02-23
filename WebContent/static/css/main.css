@@ -1,0 +1,114 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#header{
+	width: 100%;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+ul{
+	list-style: none;
+}
+
+#content{
+	margin-top: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+}
+#lead{
+	width: 200px;
+	border: 2px solid green;
+	border-radius: 5px;
+}
+#main{
+	border-top: 1px solid #487a6f;
+	padding-top: 20px;
+	width: 750px;
+	margin: 0 15px;
+}
+#bookList{
+	display: flex;
+	justify-content: center;
+}
+.book{
+	display: inline-block;
+	width: 150px;
+	margin-right: 30px;
+	margin-bottom: 15px;
+}
+.bookImg{
+	width: inherit;
+	height: 150px;
+}
+.name{
+	width: inherit;
+	color: #222222;
+	height: 25px;
+	font-size: 20px;
+}
+.author{
+	width: inherit;
+	color: #d2d2d2;
+	font-size: 15px;
+	height: 25px;
+}
+.price{
+	width: inherit;
+	color: #c30;
+	font-size: 17px;
+}
+#leadTitle{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	height: 35px;
+	background-color: #487a6f;
+}
+.lei{
+	margin-bottom: 5px;
+}
+.title{
+	width: 90%;
+	margin: 0 auto;
+	padding: 5px;
+	border-top: 1px solid #d2d2d2;
+	font-size: 18px;
+	font-weight: bold;
+	color: #487a6f;
+}
+.inner{
+	padding: 5px;
+	font-size: 15px;
+	color: green;
+	color: #666666;
+}
+#fire{
+	width: 200px;
+	
+}
+#fireTitle{
+	color: #d72832 ;
+	font-weight: bold;
+	font-size: 20px;
+}
+#list ul{
+	margin-top: 6px;
+	border-radius: 5px;
+	border: 1px solid #d2d2d2;
+}
+#list ul li{
+	margin: 0 5px;
+	padding:8px 10px 8px 10px;
+	border-top: 1px solid #d2d2d2;
+}
+.span1{
+	color: #e2454e;
+}
+.span2{
+	color: #222222;
+	margin-left: 15px;
+}
